@@ -3,3 +3,6 @@
 *covid19-in-usa
 *novel-corona-virus-2019-dataset
 *.csv
+*__pycache__/
+*.DS_Store
+*.ipynb_checkpoints/
