@@ -11,6 +11,8 @@ $(rm -rf coronavirusdataset)
 $(rm states.csv)
 $(rm time_series.csv)
 
+wget https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/us_daily.csv
+wget https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/states_current.csv
 wget http://coronavirusapi.com/states.csv
 wget http://coronavirusapi.com/time_series.csv
 
