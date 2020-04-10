@@ -26,6 +26,12 @@ def unwrap_projections(projections):
             data[i].append(d)
     return data
 
+def unwrap_daily_projections(projections):
+    data = [[] for _ in range(len(projections))]
+    for i,projection in enumerate(projections):
+        data[i].append(projection)
+    return data
+
 def return_polyfit(x,y,degree):
     import numpy.polynomial.polynomial as poly
     coefs = poly.polyfit(x, y, degree)
